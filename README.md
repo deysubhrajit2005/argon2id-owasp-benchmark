@@ -78,3 +78,11 @@ and draft the paper. All measurements were collected by the author on his own la
 ## License
 
 MIT License. You are free to reuse the code and data with attribution.
+
+## Limitations
+
+- One machine only (Intel Core i5-10310U laptop, 15 W, Windows 11); results may differ on desktop, server or ARM CPUs.
+- No hardware performance counters were available, so cache and page-fault behaviour is inferred from timing only.
+- E3 measures single-hash latency, not throughput under many concurrent logins.
+- Attacker-side cost (GPU cracking) was not measured.
+- Repetition 1 was faster at large memory sizes, probably because of turbo boost before the 15 W power limit applied.
